@@ -47,3 +47,6 @@
 
 # Archive run artifacts
 /2026-01-16_compare_experiment_scripts/
+
+# Tool cache
+/experiments/.cursor_like_tool_cache/
