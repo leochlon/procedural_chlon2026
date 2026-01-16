@@ -1,0 +1,49 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.xdv
+*.bcf
+*.run.xml
+*.synctex
+
+# Backup files
+*~
+*.bak
+*.backup
+*.orig
+**/_backup*/
+
+# macOS metadata
+.DS_Store
+
+# Experiment data subfolders (keep scripts + manifest)
+/experiments/mechanistic_localization/gemma_causal_head/
+/experiments/mechanistic_localization/qwen_causal_head/
+/experiments/mechanistic_localization/gemma_mech/
+/experiments/mechanistic_localization/llama_mech/
+/experiments/mechanistic_localization/qwen_mech/
+/experiments/prediction1_stage2b/gemma/
+/experiments/prediction1_stage2b/llama/
+/experiments/prediction1_stage2b/qwen_merged/
+/experiments/prediction3_checkpointing/gemma_checkpoint/
+/experiments/prediction3_checkpointing/qwen_checkpoint/
+
+# Secret-containing span (historical artifact)
+/2026-01-16_compare_experiment_scripts/spans/S23.txt
+
+# Archive run artifacts
+/2026-01-16_compare_experiment_scripts/
